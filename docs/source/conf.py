@@ -15,6 +15,9 @@
 import sys
 import os
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../'))
+print(sys.path[0])
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -31,6 +34,7 @@ import os
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
+    'numpydoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

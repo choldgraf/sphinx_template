@@ -6,6 +6,14 @@ import numpy as np
 def trapzf(f, a, b, npts=100):
     """Integrate a function using the trapezoid rule.
 
+    Notes
+    -----
+    Just to show that it can be done, a LaTeX equation:
+
+    .. math::
+
+       \int_\mathrm{a}^\mathrm{b} f(t) dt
+
     Parameters
     ----------
     f : callable f(x)
