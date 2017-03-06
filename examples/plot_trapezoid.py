@@ -10,34 +10,16 @@ For more information about this, `see here <http://www.mathwords.com/t/trapezoid
 
 """
 
-# sphinx_gallery_thumbnail_number = 1
-
 import os.path as op
 import numpy as np
 import matplotlib.pyplot as plt
 import os
 import sys
-sys.path.append(op.join(op.dirname(op.abspath(__file__)), '..', ))
 from my_package.trapezoid import trapzf
-
-###############################################################################
-# Define our function
-# -------------------
-#
-# Below we'll define a function that we'll integrate
 
 
 def my_function(a):
     return 2.2 * a**3 + .3 * a**2 + 2 * a + .1
-
-
-###############################################################################
-# Now make some plots
-# -------------------
-#
-# Using this function, we'll plot the function itself, as well as
-# how the area under the curve changes as a function of how many points
-# we use to create the trapezoids.
 
 # Show the function
 fig, ax = plt.subplots()
