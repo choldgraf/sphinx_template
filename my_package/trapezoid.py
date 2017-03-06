@@ -27,7 +27,7 @@ def trapzf(f, a, b, npts=100):
     Returns
     -------
     float
-        Integral of `f` over the interval `[a, b)`.
+        Integral of `f` over the interval :math:`[a, b)`.
     """
     # Generate an equally spaced grid to sample the function.
     x = np.linspace(a, b, npts)
