@@ -1,4 +1,4 @@
-# zero_to_docs
+# sphinx_template
 
 Materials to help you go from zero to full documentation as quickly as possible.
 
