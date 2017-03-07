@@ -1,1 +1,0 @@
-An empty docs folder
